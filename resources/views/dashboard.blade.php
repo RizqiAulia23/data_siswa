@@ -28,7 +28,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 mb-8">
         <!-- 1. Total Siswa -->
         <a href="{{ route('siswa.index') }}" class="group block focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-xl">
-            <x-card class="hover:shadow-md hover:border-blue-200 transition-all duration-150 h-full flex flex-col justify-between p-5 cursor-pointer">
+            <x-card class="h-full flex flex-col justify-between p-5 cursor-pointer">
                 <div class="flex items-start justify-between">
                     <div>
                         <p class="text-[11px] font-bold uppercase tracking-wider text-slate-600 group-hover:text-blue-600 transition-colors">Total Siswa</p>
@@ -38,7 +38,7 @@
                         <x-icon name="users" class="w-5 h-5" />
                     </div>
                 </div>
-                <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-600 font-medium">
+                <div class="mt-4 pt-3 border-t border-white/40 flex items-center justify-between text-xs text-slate-600 font-medium">
                     <span>Kelola Master Siswa</span>
                     <span class="text-blue-600 group-hover:translate-x-0.5 transition-transform">&rarr;</span>
                 </div>
@@ -47,7 +47,7 @@
 
         <!-- 2. Total Guru -->
         <a href="{{ route('guru.index') }}" class="group block focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-xl">
-            <x-card class="hover:shadow-md hover:border-slate-300 transition-all duration-150 h-full flex flex-col justify-between p-5 cursor-pointer">
+            <x-card class="h-full flex flex-col justify-between p-5 cursor-pointer">
                 <div class="flex items-start justify-between">
                     <div>
                         <p class="text-[11px] font-bold uppercase tracking-wider text-slate-600 group-hover:text-slate-900 transition-colors">Total Guru</p>
@@ -57,7 +57,7 @@
                         <x-icon name="user-plus" class="w-5 h-5" />
                     </div>
                 </div>
-                <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-600 font-medium">
+                <div class="mt-4 pt-3 border-t border-white/40 flex items-center justify-between text-xs text-slate-600 font-medium">
                     <span>Kelola Master Guru</span>
                     <span class="text-slate-700 group-hover:translate-x-0.5 transition-transform">&rarr;</span>
                 </div>
@@ -66,7 +66,7 @@
 
         <!-- 3. Total Kelas -->
         <a href="{{ route('kelas.index') }}" class="group block focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-xl">
-            <x-card class="hover:shadow-md hover:border-emerald-200 transition-all duration-150 h-full flex flex-col justify-between p-5 cursor-pointer">
+            <x-card class="h-full flex flex-col justify-between p-5 cursor-pointer">
                 <div class="flex items-start justify-between">
                     <div>
                         <p class="text-[11px] font-bold uppercase tracking-wider text-slate-600 group-hover:text-emerald-700 transition-colors">Total Kelas</p>
@@ -76,7 +76,7 @@
                         <x-icon name="academic" class="w-5 h-5" />
                     </div>
                 </div>
-                <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-600 font-medium">
+                <div class="mt-4 pt-3 border-t border-white/40 flex items-center justify-between text-xs text-slate-600 font-medium">
                     <span>Ruang & Tingkatan</span>
                     <span class="text-emerald-700 group-hover:translate-x-0.5 transition-transform">&rarr;</span>
                 </div>
@@ -85,7 +85,7 @@
 
         <!-- 4. Total Mata Pelajaran -->
         <a href="{{ route('mapel.index') }}" class="group block focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-xl">
-            <x-card class="hover:shadow-md hover:border-amber-200 transition-all duration-150 h-full flex flex-col justify-between p-5 cursor-pointer">
+            <x-card class="h-full flex flex-col justify-between p-5 cursor-pointer">
                 <div class="flex items-start justify-between">
                     <div>
                         <p class="text-[11px] font-bold uppercase tracking-wider text-slate-600 group-hover:text-amber-700 transition-colors">Mata Pelajaran</p>
@@ -95,7 +95,7 @@
                         <x-icon name="book" class="w-5 h-5" />
                     </div>
                 </div>
-                <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-600 font-medium">
+                <div class="mt-4 pt-3 border-t border-white/40 flex items-center justify-between text-xs text-slate-600 font-medium">
                     <span>Kurikulum & Jam</span>
                     <span class="text-amber-700 group-hover:translate-x-0.5 transition-transform">&rarr;</span>
                 </div>
@@ -104,7 +104,7 @@
 
         <!-- 5. Pendaftaran Kelas -->
         <a href="{{ route('pendaftaran-kelas.index') }}" class="group block focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-xl">
-            <x-card class="hover:shadow-md hover:border-sky-200 transition-all duration-150 h-full flex flex-col justify-between p-5 cursor-pointer">
+            <x-card class="h-full flex flex-col justify-between p-5 cursor-pointer">
                 <div class="flex items-start justify-between">
                     <div>
                         <p class="text-[11px] font-bold uppercase tracking-wider text-slate-600 group-hover:text-sky-700 transition-colors">Pendaftaran Kelas</p>
@@ -114,7 +114,7 @@
                         <x-icon name="check" class="w-5 h-5" />
                     </div>
                 </div>
-                <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-600 font-medium">
+                <div class="mt-4 pt-3 border-t border-white/40 flex items-center justify-between text-xs text-slate-600 font-medium">
                     <span>Penempatan Siswa</span>
                     <span class="text-sky-700 group-hover:translate-x-0.5 transition-transform">&rarr;</span>
                 </div>
@@ -123,7 +123,7 @@
 
         <!-- 6. Penugasan Mengajar -->
         <a href="{{ route('mengajar.index') }}" class="group block focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-xl">
-            <x-card class="hover:shadow-md hover:border-purple-200 transition-all duration-150 h-full flex flex-col justify-between p-5 cursor-pointer">
+            <x-card class="h-full flex flex-col justify-between p-5 cursor-pointer">
                 <div class="flex items-start justify-between">
                     <div>
                         <p class="text-[11px] font-bold uppercase tracking-wider text-slate-600 group-hover:text-purple-700 transition-colors">Penugasan Mengajar</p>
@@ -133,7 +133,7 @@
                         <x-icon name="academic" class="w-5 h-5" />
                     </div>
                 </div>
-                <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-600 font-medium">
+                <div class="mt-4 pt-3 border-t border-white/40 flex items-center justify-between text-xs text-slate-600 font-medium">
                     <span>Distribusi Pengajar</span>
                     <span class="text-purple-700 group-hover:translate-x-0.5 transition-transform">&rarr;</span>
                 </div>
@@ -142,7 +142,7 @@
 
         <!-- 7. Total Nilai -->
         <a href="{{ route('nilai.index') }}" class="group block focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-xl">
-            <x-card class="hover:shadow-md hover:border-rose-200 transition-all duration-150 h-full flex flex-col justify-between p-5 cursor-pointer">
+            <x-card class="h-full flex flex-col justify-between p-5 cursor-pointer">
                 <div class="flex items-start justify-between">
                     <div>
                         <p class="text-[11px] font-bold uppercase tracking-wider text-slate-600 group-hover:text-rose-700 transition-colors">Total Nilai</p>
@@ -152,7 +152,7 @@
                         <x-icon name="chart" class="w-5 h-5" />
                     </div>
                 </div>
-                <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-600 font-medium">
+                <div class="mt-4 pt-3 border-t border-white/40 flex items-center justify-between text-xs text-slate-600 font-medium">
                     <span>Rekapitulasi Nilai</span>
                     <span class="text-rose-700 group-hover:translate-x-0.5 transition-transform">&rarr;</span>
                 </div>
@@ -161,7 +161,7 @@
 
         <!-- 8. Log Aktivitas -->
         <a href="{{ route('log-aktivitas.index') }}" class="group block focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-xl">
-            <x-card class="hover:shadow-md hover:border-slate-300 transition-all duration-150 h-full flex flex-col justify-between p-5 cursor-pointer">
+            <x-card class="h-full flex flex-col justify-between p-5 cursor-pointer">
                 <div class="flex items-start justify-between">
                     <div>
                         <p class="text-[11px] font-bold uppercase tracking-wider text-slate-600 group-hover:text-slate-900 transition-colors">Log Aktivitas</p>
@@ -171,7 +171,7 @@
                         <x-icon name="clock" class="w-5 h-5" />
                     </div>
                 </div>
-                <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-600 font-medium">
+                <div class="mt-4 pt-3 border-t border-white/40 flex items-center justify-between text-xs text-slate-600 font-medium">
                     <span>Audit Trail Sistem</span>
                     <span class="text-slate-700 group-hover:translate-x-0.5 transition-transform">&rarr;</span>
                 </div>
@@ -184,7 +184,7 @@
         <!-- Card 1: Siswa Terbaru -->
         <x-card class="overflow-hidden flex flex-col justify-between">
             <div>
-                <div class="p-5 border-b border-slate-100 flex items-center justify-between">
+                <div class="p-5 border-b border-white/40 flex items-center justify-between">
                     <div>
                         <h2 class="text-base font-bold text-slate-900">Siswa Terbaru</h2>
                         <p class="text-xs text-slate-500 mt-0.5">Daftar siswa terbaru yang terdaftar di sistem</p>
@@ -196,7 +196,7 @@
 
                 <div class="overflow-x-auto">
                     <table class="w-full text-left text-xs">
-                        <thead class="bg-slate-50/80 border-b border-slate-100 text-[11px] font-bold uppercase tracking-wider text-slate-600">
+                        <thead class="bg-white/30 border-b border-white/40 text-[11px] font-bold uppercase tracking-wider text-slate-600">
                             <tr>
                                 <th scope="col" class="px-6 py-3.5 text-left">NIS</th>
                                 <th scope="col" class="px-6 py-3.5 text-left">Nama Siswa</th>
@@ -204,7 +204,7 @@
                                 <th scope="col" class="px-6 py-3.5 text-right">Aksi</th>
                             </tr>
                         </thead>
-                        <tbody class="divide-y divide-slate-100">
+                        <tbody class="divide-y divide-white/40">
                             @forelse ($recentSiswa as $s)
                                 <tr class="hover:bg-slate-50/70 transition-colors">
                                     <td class="px-6 py-4 font-mono font-semibold text-slate-700">{{ $s->nis }}</td>
@@ -253,7 +253,7 @@
         <!-- Card 2: Log Aktivitas Terbaru -->
         <x-card class="overflow-hidden flex flex-col justify-between">
             <div>
-                <div class="p-5 border-b border-slate-100 flex items-center justify-between">
+                <div class="p-5 border-b border-white/40 flex items-center justify-between">
                     <div>
                         <h2 class="text-base font-bold text-slate-900">Aktivitas Terbaru</h2>
                         <p class="text-xs text-slate-500 mt-0.5">Catatan audit trail aktivitas sistem</p>
@@ -265,14 +265,14 @@
 
                 <div class="overflow-x-auto">
                     <table class="w-full text-left text-xs">
-                        <thead class="bg-slate-50/80 border-b border-slate-100 text-[11px] font-bold uppercase tracking-wider text-slate-600">
+                        <thead class="bg-white/30 border-b border-white/40 text-[11px] font-bold uppercase tracking-wider text-slate-600">
                             <tr>
                                 <th scope="col" class="px-6 py-3.5 text-left">Waktu</th>
                                 <th scope="col" class="px-6 py-3.5 text-center">Tipe</th>
                                 <th scope="col" class="px-6 py-3.5 text-left">Aktivitas</th>
                             </tr>
                         </thead>
-                        <tbody class="divide-y divide-slate-100">
+                        <tbody class="divide-y divide-white/40">
                             @forelse ($recentLog as $l)
                                 <tr class="hover:bg-slate-50/70 transition-colors">
                                     <td class="px-6 py-4 font-mono text-[11px] text-slate-500 whitespace-nowrap">
